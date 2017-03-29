@@ -1,0 +1,32 @@
+<html>
+<head>
+	<title>jsexp</title>
+	<script>
+
+document.addEventListener("DOMContentLoaded", function(event) {
+
+  
+  var e = document.getElementById("go");
+  
+  
+  e.addEventListener( "click", function() {
+
+    
+    var name = prompt("What is your name?","Code Master Perry");
+    
+    
+    document.getElementById( "msg" ).innerText = name;
+
+  }, false);
+  
+});
+</script>
+
+
+<input id="go" type="button" value="Click me">
+<p id="msg"></p>
+</head>
+<body>
+
+</body>
+</html>
